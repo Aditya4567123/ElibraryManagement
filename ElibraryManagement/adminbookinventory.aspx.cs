@@ -11,6 +11,7 @@ using System.Web.UI.WebControls;
 
 namespace ElibraryManagement
 {
+    
     public partial class adminbookinventory : System.Web.UI.Page
     {
         string strcon = ConfigurationManager.ConnectionStrings["con"].ConnectionString;

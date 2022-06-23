@@ -68,6 +68,10 @@ namespace ElibraryManagement
             
 
         }
+        protected void LinkButton7_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("userprofile.aspx");
+        }
 
         protected void LinkButton6_Click(object sender, EventArgs e)
         {
@@ -101,7 +105,7 @@ namespace ElibraryManagement
 
         protected void LinkButton4_Click(object sender, EventArgs e)
         {
-            Response.Redirect("viewbooks.aspx");
+            Response.Redirect("userviewbooks.aspx");
         }
 
         protected void LinkButton1_Click(object sender, EventArgs e)
@@ -135,5 +139,7 @@ namespace ElibraryManagement
                 LinkButton10.Visible = false; // Member Management link button
 
         }
+
+
     }
 }
